@@ -5,7 +5,16 @@ It also contains corrected timings down to machine cycles which ease up the cont
 I used this for my ZX Spectrum emulator with machine cycle timing precision which allowed more native peripherial emulation without hacks.
 Like FDC, AY, etc. using existing firmwares instead of injected data/code based on call addresses etc ...
 
-related SO links:
+related links:
 
-https://stackoverflow.com/a/18911590/2521214
-https://stackoverflow.com/a/19218993/2521214
+SO related links:
+
+  https://stackoverflow.com/a/18911590/2521214
+  https://stackoverflow.com/a/19218993/2521214
+
+ZEXALL exerciser 
+
+  http://mdfs.net/Software/Z80/Exerciser/
+
+Beware above ZEXALL is for 64KB RAM (CP/M like) environment so if you have any ROM present the results will have different checksums.
+There is also corrected ZEXALL for original ZX Spectrum 48K out there IIRC its called ZEXFIX
